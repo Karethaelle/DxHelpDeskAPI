@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Mappers\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DxHelpDesk.Auth\DxHelpDesk.Auth.csproj" />
+    <ProjectReference Include="..\DxHelpDesk.Shared\DxHelpDesk.Shared.csproj" />
+    <ProjectReference Include="..\DxHelpDeskAPI.Application\DxHelpDeskAPI.Application.csproj" />
+    <ProjectReference Include="..\DxHelpDeskAPI.Domain\DxHelpDeskAPI.Domain.csproj" />
+    <ProjectReference Include="..\DxHelpDeskAPI.Persistence\DxHelpDeskAPI.Persistence.csproj" />
+  </ItemGroup>
+
+</Project>
