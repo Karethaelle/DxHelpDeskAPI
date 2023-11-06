@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-using DxHelpDeskAPI.ViewModels.AudittrailVM;
+using DxHelpDeskAPI.ViewModels.AudittrailModels;
 using DxHelpDeskAPI.ViewModels.CompanyModels;
 using DxHelpDeskAPI.ViewModels.TicketModels;
 

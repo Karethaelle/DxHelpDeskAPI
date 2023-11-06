@@ -38,11 +38,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\BERT\\NEW-HELPDESK\\DxHelpDeskAPI\\DxHelpDeskAPI.Persistence\\DxHelpDeskAPI.Persistence.csproj",
+      "projectUniqueName": "D:\\BERT\\DxHelpDesk\\DxHelpDeskAPI\\DxHelpDeskAPI.Persistence\\DxHelpDeskAPI.Persistence.csproj",
       "projectName": "DxHelpDeskAPI.Persistence",
-      "projectPath": "D:\\BERT\\NEW-HELPDESK\\DxHelpDeskAPI\\DxHelpDeskAPI.Persistence\\DxHelpDeskAPI.Persistence.csproj",
+      "projectPath": "D:\\BERT\\DxHelpDesk\\DxHelpDeskAPI\\DxHelpDeskAPI.Persistence\\DxHelpDeskAPI.Persistence.csproj",
       "packagesPath": "C:\\Users\\dvrds\\.nuget\\packages\\",
-      "outputPath": "D:\\BERT\\NEW-HELPDESK\\DxHelpDeskAPI\\DxHelpDeskAPI.Persistence\\obj\\",
+      "outputPath": "D:\\BERT\\DxHelpDesk\\DxHelpDeskAPI\\DxHelpDeskAPI.Persistence\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\DevExpress 22.1\\Components\\Offline Packages",
@@ -76,8 +76,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\BERT\\NEW-HELPDESK\\DxHelpDeskAPI\\DxHelpDeskAPI.Domain\\DxHelpDeskAPI.Domain.csproj": {
-              "projectPath": "D:\\BERT\\NEW-HELPDESK\\DxHelpDeskAPI\\DxHelpDeskAPI.Domain\\DxHelpDeskAPI.Domain.csproj"
+            "D:\\BERT\\DxHelpDesk\\DxHelpDeskAPI\\DxHelpDeskAPI.Domain\\DxHelpDeskAPI.Domain.csproj": {
+              "projectPath": "D:\\BERT\\DxHelpDesk\\DxHelpDeskAPI\\DxHelpDeskAPI.Domain\\DxHelpDeskAPI.Domain.csproj"
             }
           }
         }

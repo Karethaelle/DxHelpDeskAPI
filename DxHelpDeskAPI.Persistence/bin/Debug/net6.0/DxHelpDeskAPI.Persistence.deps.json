@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "DxHelpDeskAPI.Persistence/1.0.0": {
+        "dependencies": {
+          "DxHelpDeskAPI.Domain": "1.0.0"
+        },
+        "runtime": {
+          "DxHelpDeskAPI.Persistence.dll": {}
+        }
+      },
+      "DxHelpDeskAPI.Domain/1.0.0": {
+        "runtime": {
+          "DxHelpDeskAPI.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "DxHelpDeskAPI.Persistence/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DxHelpDeskAPI.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -3,17 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34031.279
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DxHelpDeskAPI", "DxHelpDeskAPI\DxHelpDeskAPI.csproj", "{F9CE8356-AEF7-469B-8437-240A0BC22510}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DxHelpDeskAPI", "DxHelpDeskAPI\DxHelpDeskAPI.csproj", "{F9CE8356-AEF7-469B-8437-240A0BC22510}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DxHelpDeskAPI.Application", "DxHelpDeskAPI.Application\DxHelpDeskAPI.Application.csproj", "{F32D1894-0BFF-4F7F-A219-2A3BEED313CF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DxHelpDeskAPI.Application", "DxHelpDeskAPI.Application\DxHelpDeskAPI.Application.csproj", "{F32D1894-0BFF-4F7F-A219-2A3BEED313CF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DxHelpDeskAPI.Domain", "DxHelpDeskAPI.Domain\DxHelpDeskAPI.Domain.csproj", "{40634CE3-A2AC-429C-BFEA-0B7D0752C814}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DxHelpDeskAPI.Domain", "DxHelpDeskAPI.Domain\DxHelpDeskAPI.Domain.csproj", "{40634CE3-A2AC-429C-BFEA-0B7D0752C814}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DxHelpDeskAPI.Persistence", "DxHelpDeskAPI.Persistence\DxHelpDeskAPI.Persistence.csproj", "{CF1A57D6-8F21-44B7-B616-332816C5B380}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DxHelpDeskAPI.Persistence", "DxHelpDeskAPI.Persistence\DxHelpDeskAPI.Persistence.csproj", "{CF1A57D6-8F21-44B7-B616-332816C5B380}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DxHelpDesk.Shared", "DxHelpDesk.Shared\DxHelpDesk.Shared.csproj", "{4A02D9BF-E414-4175-82A6-9ED9205320A7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DxHelpDesk.Shared", "DxHelpDesk.Shared\DxHelpDesk.Shared.csproj", "{4A02D9BF-E414-4175-82A6-9ED9205320A7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DxHelpDesk.Auth", "DxHelpDesk.Auth\DxHelpDesk.Auth.csproj", "{A4647C7A-7F1D-472F-8294-FD731BB450E4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DxHelpDesk.Auth", "DxHelpDesk.Auth\DxHelpDesk.Auth.csproj", "{A4647C7A-7F1D-472F-8294-FD731BB450E4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{C93B9D36-D6D7-44E3-82A3-9B983687C44E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -48,6 +50,10 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4A02D9BF-E414-4175-82A6-9ED9205320A7} = {C93B9D36-D6D7-44E3-82A3-9B983687C44E}
+		{A4647C7A-7F1D-472F-8294-FD731BB450E4} = {C93B9D36-D6D7-44E3-82A3-9B983687C44E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D5D7E933-E830-412C-9E68-025EFFADBCA6}

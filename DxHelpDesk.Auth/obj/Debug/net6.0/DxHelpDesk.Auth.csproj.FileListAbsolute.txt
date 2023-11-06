@@ -1,0 +1,15 @@
+D:\BERT\DxHelpDesk\DxHelpDeskAPI\DxHelpDesk.Auth\bin\Debug\net6.0\DxHelpDesk.Auth.deps.json
+D:\BERT\DxHelpDesk\DxHelpDeskAPI\DxHelpDesk.Auth\bin\Debug\net6.0\DxHelpDesk.Auth.dll
+D:\BERT\DxHelpDesk\DxHelpDeskAPI\DxHelpDesk.Auth\bin\Debug\net6.0\DxHelpDesk.Auth.pdb
+D:\BERT\DxHelpDesk\DxHelpDeskAPI\DxHelpDesk.Auth\bin\Debug\net6.0\DxHelpDesk.Shared.dll
+D:\BERT\DxHelpDesk\DxHelpDeskAPI\DxHelpDesk.Auth\bin\Debug\net6.0\DxHelpDesk.Shared.pdb
+D:\BERT\DxHelpDesk\DxHelpDeskAPI\DxHelpDesk.Auth\obj\Debug\net6.0\DxHelpDesk.Auth.csproj.AssemblyReference.cache
+D:\BERT\DxHelpDesk\DxHelpDeskAPI\DxHelpDesk.Auth\obj\Debug\net6.0\DxHelpDesk.Auth.GeneratedMSBuildEditorConfig.editorconfig
+D:\BERT\DxHelpDesk\DxHelpDeskAPI\DxHelpDesk.Auth\obj\Debug\net6.0\DxHelpDesk.Auth.AssemblyInfoInputs.cache
+D:\BERT\DxHelpDesk\DxHelpDeskAPI\DxHelpDesk.Auth\obj\Debug\net6.0\DxHelpDesk.Auth.AssemblyInfo.cs
+D:\BERT\DxHelpDesk\DxHelpDeskAPI\DxHelpDesk.Auth\obj\Debug\net6.0\DxHelpDesk.Auth.csproj.CoreCompileInputs.cache
+D:\BERT\DxHelpDesk\DxHelpDeskAPI\DxHelpDesk.Auth\obj\Debug\net6.0\DxHelpDesk.Auth.csproj.CopyComplete
+D:\BERT\DxHelpDesk\DxHelpDeskAPI\DxHelpDesk.Auth\obj\Debug\net6.0\DxHelpDesk.Auth.dll
+D:\BERT\DxHelpDesk\DxHelpDeskAPI\DxHelpDesk.Auth\obj\Debug\net6.0\refint\DxHelpDesk.Auth.dll
+D:\BERT\DxHelpDesk\DxHelpDeskAPI\DxHelpDesk.Auth\obj\Debug\net6.0\DxHelpDesk.Auth.pdb
+D:\BERT\DxHelpDesk\DxHelpDeskAPI\DxHelpDesk.Auth\obj\Debug\net6.0\ref\DxHelpDesk.Auth.dll

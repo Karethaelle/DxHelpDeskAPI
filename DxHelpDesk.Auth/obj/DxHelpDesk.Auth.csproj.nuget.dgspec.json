@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\BERT\\NEW-HELPDESK\\DxHelpDeskAPI\\DxHelpDesk.Auth\\DxHelpDesk.Auth.csproj": {}
+    "D:\\BERT\\DxHelpDesk\\DxHelpDeskAPI\\DxHelpDesk.Auth\\DxHelpDesk.Auth.csproj": {}
   },
   "projects": {
-    "D:\\BERT\\NEW-HELPDESK\\DxHelpDeskAPI\\DxHelpDesk.Auth\\DxHelpDesk.Auth.csproj": {
+    "D:\\BERT\\DxHelpDesk\\DxHelpDeskAPI\\DxHelpDesk.Auth\\DxHelpDesk.Auth.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\BERT\\NEW-HELPDESK\\DxHelpDeskAPI\\DxHelpDesk.Auth\\DxHelpDesk.Auth.csproj",
+        "projectUniqueName": "D:\\BERT\\DxHelpDesk\\DxHelpDeskAPI\\DxHelpDesk.Auth\\DxHelpDesk.Auth.csproj",
         "projectName": "DxHelpDesk.Auth",
-        "projectPath": "D:\\BERT\\NEW-HELPDESK\\DxHelpDeskAPI\\DxHelpDesk.Auth\\DxHelpDesk.Auth.csproj",
+        "projectPath": "D:\\BERT\\DxHelpDesk\\DxHelpDeskAPI\\DxHelpDesk.Auth\\DxHelpDesk.Auth.csproj",
         "packagesPath": "C:\\Users\\dvrds\\.nuget\\packages\\",
-        "outputPath": "D:\\BERT\\NEW-HELPDESK\\DxHelpDeskAPI\\DxHelpDesk.Auth\\obj\\",
+        "outputPath": "D:\\BERT\\DxHelpDesk\\DxHelpDeskAPI\\DxHelpDesk.Auth\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\DevExpress 22.1\\Components\\Offline Packages",
@@ -45,8 +45,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\BERT\\NEW-HELPDESK\\DxHelpDeskAPI\\DxHelpDesk.Shared\\DxHelpDesk.Shared.csproj": {
-                "projectPath": "D:\\BERT\\NEW-HELPDESK\\DxHelpDeskAPI\\DxHelpDesk.Shared\\DxHelpDesk.Shared.csproj"
+              "D:\\BERT\\DxHelpDesk\\DxHelpDeskAPI\\DxHelpDesk.Shared\\DxHelpDesk.Shared.csproj": {
+                "projectPath": "D:\\BERT\\DxHelpDesk\\DxHelpDeskAPI\\DxHelpDesk.Shared\\DxHelpDesk.Shared.csproj"
               }
             }
           }
@@ -80,14 +80,14 @@
         }
       }
     },
-    "D:\\BERT\\NEW-HELPDESK\\DxHelpDeskAPI\\DxHelpDesk.Shared\\DxHelpDesk.Shared.csproj": {
+    "D:\\BERT\\DxHelpDesk\\DxHelpDeskAPI\\DxHelpDesk.Shared\\DxHelpDesk.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\BERT\\NEW-HELPDESK\\DxHelpDeskAPI\\DxHelpDesk.Shared\\DxHelpDesk.Shared.csproj",
+        "projectUniqueName": "D:\\BERT\\DxHelpDesk\\DxHelpDeskAPI\\DxHelpDesk.Shared\\DxHelpDesk.Shared.csproj",
         "projectName": "DxHelpDesk.Shared",
-        "projectPath": "D:\\BERT\\NEW-HELPDESK\\DxHelpDeskAPI\\DxHelpDesk.Shared\\DxHelpDesk.Shared.csproj",
+        "projectPath": "D:\\BERT\\DxHelpDesk\\DxHelpDeskAPI\\DxHelpDesk.Shared\\DxHelpDesk.Shared.csproj",
         "packagesPath": "C:\\Users\\dvrds\\.nuget\\packages\\",
-        "outputPath": "D:\\BERT\\NEW-HELPDESK\\DxHelpDeskAPI\\DxHelpDesk.Shared\\obj\\",
+        "outputPath": "D:\\BERT\\DxHelpDesk\\DxHelpDeskAPI\\DxHelpDesk.Shared\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\DevExpress 22.1\\Components\\Offline Packages",

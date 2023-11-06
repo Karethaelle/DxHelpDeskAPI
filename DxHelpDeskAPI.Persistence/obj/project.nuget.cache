@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "zbhvBM1y74hGYx3r+RRfM5hR9gFUB9Hmn40B0ybtR/ajM2id1FRoF7jkqiggSgIvV+qQWqIeuhK98JXKzbA57A==",
+  "dgSpecHash": "3Y9bwCX4b5UMH17DmP+JTXIOsGVze0W6lnZR6OYlCS8sZ6T4SBxscWb+cQAUF1qvVn6lC26otwHOI6Pul3zKHg==",
   "success": true,
-  "projectFilePath": "D:\\BERT\\NEW-HELPDESK\\DxHelpDeskAPI\\DxHelpDeskAPI.Persistence\\DxHelpDeskAPI.Persistence.csproj",
+  "projectFilePath": "D:\\BERT\\DxHelpDesk\\DxHelpDeskAPI\\DxHelpDeskAPI.Persistence\\DxHelpDeskAPI.Persistence.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

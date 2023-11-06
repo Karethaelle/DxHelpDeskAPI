@@ -1,0 +1,11 @@
+D:\BERT\DxHelpDesk\DxHelpDeskAPI\DxHelpDeskAPI.Domain\bin\Debug\net6.0\DxHelpDeskAPI.Domain.deps.json
+D:\BERT\DxHelpDesk\DxHelpDeskAPI\DxHelpDeskAPI.Domain\bin\Debug\net6.0\DxHelpDeskAPI.Domain.dll
+D:\BERT\DxHelpDesk\DxHelpDeskAPI\DxHelpDeskAPI.Domain\bin\Debug\net6.0\DxHelpDeskAPI.Domain.pdb
+D:\BERT\DxHelpDesk\DxHelpDeskAPI\DxHelpDeskAPI.Domain\obj\Debug\net6.0\DxHelpDeskAPI.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\BERT\DxHelpDesk\DxHelpDeskAPI\DxHelpDeskAPI.Domain\obj\Debug\net6.0\DxHelpDeskAPI.Domain.AssemblyInfoInputs.cache
+D:\BERT\DxHelpDesk\DxHelpDeskAPI\DxHelpDeskAPI.Domain\obj\Debug\net6.0\DxHelpDeskAPI.Domain.AssemblyInfo.cs
+D:\BERT\DxHelpDesk\DxHelpDeskAPI\DxHelpDeskAPI.Domain\obj\Debug\net6.0\DxHelpDeskAPI.Domain.csproj.CoreCompileInputs.cache
+D:\BERT\DxHelpDesk\DxHelpDeskAPI\DxHelpDeskAPI.Domain\obj\Debug\net6.0\DxHelpDeskAPI.Domain.dll
+D:\BERT\DxHelpDesk\DxHelpDeskAPI\DxHelpDeskAPI.Domain\obj\Debug\net6.0\refint\DxHelpDeskAPI.Domain.dll
+D:\BERT\DxHelpDesk\DxHelpDeskAPI\DxHelpDeskAPI.Domain\obj\Debug\net6.0\DxHelpDeskAPI.Domain.pdb
+D:\BERT\DxHelpDesk\DxHelpDeskAPI\DxHelpDeskAPI.Domain\obj\Debug\net6.0\ref\DxHelpDeskAPI.Domain.dll

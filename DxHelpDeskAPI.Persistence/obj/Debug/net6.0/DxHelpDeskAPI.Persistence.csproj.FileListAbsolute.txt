@@ -1,0 +1,15 @@
+D:\BERT\DxHelpDesk\DxHelpDeskAPI\DxHelpDeskAPI.Persistence\bin\Debug\net6.0\DxHelpDeskAPI.Persistence.deps.json
+D:\BERT\DxHelpDesk\DxHelpDeskAPI\DxHelpDeskAPI.Persistence\bin\Debug\net6.0\DxHelpDeskAPI.Persistence.dll
+D:\BERT\DxHelpDesk\DxHelpDeskAPI\DxHelpDeskAPI.Persistence\bin\Debug\net6.0\DxHelpDeskAPI.Persistence.pdb
+D:\BERT\DxHelpDesk\DxHelpDeskAPI\DxHelpDeskAPI.Persistence\bin\Debug\net6.0\DxHelpDeskAPI.Domain.dll
+D:\BERT\DxHelpDesk\DxHelpDeskAPI\DxHelpDeskAPI.Persistence\bin\Debug\net6.0\DxHelpDeskAPI.Domain.pdb
+D:\BERT\DxHelpDesk\DxHelpDeskAPI\DxHelpDeskAPI.Persistence\obj\Debug\net6.0\DxHelpDeskAPI.Persistence.csproj.AssemblyReference.cache
+D:\BERT\DxHelpDesk\DxHelpDeskAPI\DxHelpDeskAPI.Persistence\obj\Debug\net6.0\DxHelpDeskAPI.Persistence.GeneratedMSBuildEditorConfig.editorconfig
+D:\BERT\DxHelpDesk\DxHelpDeskAPI\DxHelpDeskAPI.Persistence\obj\Debug\net6.0\DxHelpDeskAPI.Persistence.AssemblyInfoInputs.cache
+D:\BERT\DxHelpDesk\DxHelpDeskAPI\DxHelpDeskAPI.Persistence\obj\Debug\net6.0\DxHelpDeskAPI.Persistence.AssemblyInfo.cs
+D:\BERT\DxHelpDesk\DxHelpDeskAPI\DxHelpDeskAPI.Persistence\obj\Debug\net6.0\DxHelpDeskAPI.Persistence.csproj.CoreCompileInputs.cache
+D:\BERT\DxHelpDesk\DxHelpDeskAPI\DxHelpDeskAPI.Persistence\obj\Debug\net6.0\DxHelpDeskAPI.Persistence.csproj.CopyComplete
+D:\BERT\DxHelpDesk\DxHelpDeskAPI\DxHelpDeskAPI.Persistence\obj\Debug\net6.0\DxHelpDeskAPI.Persistence.dll
+D:\BERT\DxHelpDesk\DxHelpDeskAPI\DxHelpDeskAPI.Persistence\obj\Debug\net6.0\refint\DxHelpDeskAPI.Persistence.dll
+D:\BERT\DxHelpDesk\DxHelpDeskAPI\DxHelpDeskAPI.Persistence\obj\Debug\net6.0\DxHelpDeskAPI.Persistence.pdb
+D:\BERT\DxHelpDesk\DxHelpDeskAPI\DxHelpDeskAPI.Persistence\obj\Debug\net6.0\ref\DxHelpDeskAPI.Persistence.dll

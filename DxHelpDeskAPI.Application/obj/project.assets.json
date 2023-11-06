@@ -92,11 +92,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\BERT\\NEW-HELPDESK\\DxHelpDeskAPI\\DxHelpDeskAPI.Application\\DxHelpDeskAPI.Application.csproj",
+      "projectUniqueName": "D:\\BERT\\DxHelpDesk\\DxHelpDeskAPI\\DxHelpDeskAPI.Application\\DxHelpDeskAPI.Application.csproj",
       "projectName": "DxHelpDeskAPI.Application",
-      "projectPath": "D:\\BERT\\NEW-HELPDESK\\DxHelpDeskAPI\\DxHelpDeskAPI.Application\\DxHelpDeskAPI.Application.csproj",
+      "projectPath": "D:\\BERT\\DxHelpDesk\\DxHelpDeskAPI\\DxHelpDeskAPI.Application\\DxHelpDeskAPI.Application.csproj",
       "packagesPath": "C:\\Users\\dvrds\\.nuget\\packages\\",
-      "outputPath": "D:\\BERT\\NEW-HELPDESK\\DxHelpDeskAPI\\DxHelpDeskAPI.Application\\obj\\",
+      "outputPath": "D:\\BERT\\DxHelpDesk\\DxHelpDeskAPI\\DxHelpDeskAPI.Application\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\DevExpress 22.1\\Components\\Offline Packages",
@@ -130,17 +130,17 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\BERT\\NEW-HELPDESK\\DxHelpDeskAPI\\DxHelpDesk.Auth\\DxHelpDesk.Auth.csproj": {
-              "projectPath": "D:\\BERT\\NEW-HELPDESK\\DxHelpDeskAPI\\DxHelpDesk.Auth\\DxHelpDesk.Auth.csproj"
+            "D:\\BERT\\DxHelpDesk\\DxHelpDeskAPI\\DxHelpDesk.Auth\\DxHelpDesk.Auth.csproj": {
+              "projectPath": "D:\\BERT\\DxHelpDesk\\DxHelpDeskAPI\\DxHelpDesk.Auth\\DxHelpDesk.Auth.csproj"
             },
-            "D:\\BERT\\NEW-HELPDESK\\DxHelpDeskAPI\\DxHelpDesk.Shared\\DxHelpDesk.Shared.csproj": {
-              "projectPath": "D:\\BERT\\NEW-HELPDESK\\DxHelpDeskAPI\\DxHelpDesk.Shared\\DxHelpDesk.Shared.csproj"
+            "D:\\BERT\\DxHelpDesk\\DxHelpDeskAPI\\DxHelpDesk.Shared\\DxHelpDesk.Shared.csproj": {
+              "projectPath": "D:\\BERT\\DxHelpDesk\\DxHelpDeskAPI\\DxHelpDesk.Shared\\DxHelpDesk.Shared.csproj"
             },
-            "D:\\BERT\\NEW-HELPDESK\\DxHelpDeskAPI\\DxHelpDeskAPI.Domain\\DxHelpDeskAPI.Domain.csproj": {
-              "projectPath": "D:\\BERT\\NEW-HELPDESK\\DxHelpDeskAPI\\DxHelpDeskAPI.Domain\\DxHelpDeskAPI.Domain.csproj"
+            "D:\\BERT\\DxHelpDesk\\DxHelpDeskAPI\\DxHelpDeskAPI.Domain\\DxHelpDeskAPI.Domain.csproj": {
+              "projectPath": "D:\\BERT\\DxHelpDesk\\DxHelpDeskAPI\\DxHelpDeskAPI.Domain\\DxHelpDeskAPI.Domain.csproj"
             },
-            "D:\\BERT\\NEW-HELPDESK\\DxHelpDeskAPI\\DxHelpDeskAPI.Persistence\\DxHelpDeskAPI.Persistence.csproj": {
-              "projectPath": "D:\\BERT\\NEW-HELPDESK\\DxHelpDeskAPI\\DxHelpDeskAPI.Persistence\\DxHelpDeskAPI.Persistence.csproj"
+            "D:\\BERT\\DxHelpDesk\\DxHelpDeskAPI\\DxHelpDeskAPI.Persistence\\DxHelpDeskAPI.Persistence.csproj": {
+              "projectPath": "D:\\BERT\\DxHelpDesk\\DxHelpDeskAPI\\DxHelpDeskAPI.Persistence\\DxHelpDeskAPI.Persistence.csproj"
             }
           }
         }
