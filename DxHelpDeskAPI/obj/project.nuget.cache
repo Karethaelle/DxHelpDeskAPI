@@ -1,10 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "mBAN2p7snNoLhSvif5ueBKKB8ttVy0dyigtRX+srKbs7UErVKlegnI6ukMwUKJ0jb/ajH5dqj1DsycwXz7dRzQ==",
+  "dgSpecHash": "Ip/QiwPQh5DrV4fqLtIvGdfVcL9dd+uYYiMT2je14QExoQVrPy2MhjjoR2AcQN8uurzlNmuzzBBpxcK0bsQcvw==",
   "success": true,
   "projectFilePath": "D:\\BERT\\DxHelpDesk\\DxHelpDeskAPI\\DxHelpDeskAPI\\DxHelpDeskAPI.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\dvrds\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\dvrds\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
+    "C:\\Users\\dvrds\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\dvrds\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.13\\microsoft.entityframeworkcore.7.0.13.nupkg.sha512",
     "C:\\Users\\dvrds\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\7.0.13\\microsoft.entityframeworkcore.abstractions.7.0.13.nupkg.sha512",
     "C:\\Users\\dvrds\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\7.0.13\\microsoft.entityframeworkcore.analyzers.7.0.13.nupkg.sha512",
