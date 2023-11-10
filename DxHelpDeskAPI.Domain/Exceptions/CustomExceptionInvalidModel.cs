@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace DxHelpDeskAPI.Domain.Exceptions
 {
-    internal class CustomExceptionInvalidModel
+    public class CustomExceptionInvalidModel : Exception
     {
+        public CustomExceptionInvalidModel(string message) : base(message) { }
+        // Additional constructors or properties can be added here
     }
 }

@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace DxHelpDeskAPI.ViewModels.TicketModels;
+namespace DxHelpDeskAPI.Application.DTOs;
 
-public partial class Ticketattachment
+public partial class TicketattachmentDTO
 {
     public int Id { get; set; }
 
@@ -15,5 +15,5 @@ public partial class Ticketattachment
 
     public DateTime? CreatedAt { get; set; }
 
-    public virtual Ticket? Ticket { get; set; }
+    public virtual TicketDTO? Ticket { get; set; }
 }

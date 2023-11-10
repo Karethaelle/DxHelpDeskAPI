@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace DxHelpDeskAPI.ViewModels.TicketModels;
+namespace DxHelpDeskAPI.Application.DTOs;
 
-public partial class Ticketpriority
+public partial class TicketpriorityDTO
 {
     public int Id { get; set; }
 
@@ -13,5 +13,5 @@ public partial class Ticketpriority
 
     public string? Description { get; set; }
 
-    public virtual ICollection<Ticket> Tickets { get; set; } = new List<Ticket>();
+    public virtual ICollection<TicketDTO> Tickets { get; set; } = new List<TicketDTO>();
 }

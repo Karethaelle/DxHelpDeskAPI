@@ -1,10 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
-using DxHelpDeskAPI.ViewModels.UserModels;
 
-namespace DxHelpDeskAPI.ViewModels.CompanyModels;
+namespace DxHelpDeskAPI.Application.DTOs;
 
-public partial class Branch
+public partial class BranchDTO
 {
     public int Id { get; set; }
 
@@ -20,7 +19,7 @@ public partial class Branch
 
     public DateTime? UpdatedAt { get; set; }
 
-    public virtual Company? Company { get; set; }
+    public virtual CompanyDTO? Company { get; set; }
 
-    public virtual ICollection<User> Users { get; set; } = new List<User>();
+    public virtual ICollection<UserDTO> Users { get; set; } = new List<UserDTO>();
 }

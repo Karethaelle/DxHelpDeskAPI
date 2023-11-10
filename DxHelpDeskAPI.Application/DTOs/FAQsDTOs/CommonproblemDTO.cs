@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace DxHelpDeskAPI.ViewModels.FAQsModels;
+namespace DxHelpDeskAPI.Application.DTOs;
 
-public partial class Commonproblem
+public partial class CommonproblemDTO
 {
     public int Id { get; set; }
 

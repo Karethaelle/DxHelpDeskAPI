@@ -6,38 +6,22 @@ using System.Threading.Tasks;
 
 namespace DxHelpDeskAPI.Extensions
 {
-    public class ErrorHandlerMiddleware
+    public class ErrorHandlerMiddleware : Exception
     {
-        private readonly RequestDelegate _next;
+        public int ErrorCode { get; }
+        public string UserFriendlyMessage { get; }
 
-        public ErrorHandlerMiddleware(RequestDelegate next)
+        public ErrorHandlerMiddleware(string message, int errorCode, string userFriendlyMessage = null)
+            : base(message)
         {
-            _next = next;
+            ErrorCode = errorCode;
+            UserFriendlyMessage = userFriendlyMessage ?? message;
         }
 
-        public async Task Invoke(HttpContext context)
+        // Optionally, you can override the ToString() method if you want to include additional details when the exception is logged.
+        public override string ToString()
         {
-            try
-            {
-                await _next(context);
-            }
-            catch (Exception error)
-            {
-                var response = context.Response;
-                response.ContentType = "application/json";
-
-                response.StatusCode = error switch
-                {
-                    CustomExceptionBadRequest e => (int)HttpStatusCode.BadRequest, // Custom bad request exception
-                    CustomExceptionInvalidModel e => (int)HttpStatusCode.UnprocessableEntity, // Custom validation exception
-                    NotFoundException e => (int)HttpStatusCode.NotFound, // Not found exception
-                                                                         // Other custom exceptions here
-                    _ => (int)HttpStatusCode.InternalServerError, // Unhandled errors
-                };
-
-                var result = JsonSerializer.Serialize(new { message = error?.Message });
-                await response.WriteAsync(result);
-            }
+            return $"Error Code: {ErrorCode}, Message: {Message}";
         }
     }
 }

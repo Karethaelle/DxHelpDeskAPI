@@ -1,10 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-using DxHelpDeskAPI.ViewModels.AudittrailModels;
-using DxHelpDeskAPI.ViewModels.CompanyModels;
-using DxHelpDeskAPI.ViewModels.TicketModels;
-
-namespace DxHelpDeskAPI.ViewModels.UserModels;
+namespace DxHelpDeskAPI.Domain.Entities.Models;
 
 public partial class User
 {

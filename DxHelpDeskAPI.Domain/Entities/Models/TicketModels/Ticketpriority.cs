@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace DxHelpDeskAPI.ViewModels.TicketModels;
+namespace DxHelpDeskAPI.Domain.Entities.Models;
 
 public partial class Ticketpriority
 {

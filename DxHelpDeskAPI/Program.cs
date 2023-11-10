@@ -1,6 +1,17 @@
+using DxHelpDeskAPI.Application.Interfaces;
+using DxHelpDeskAPI.Application.Mappings;
+using DxHelpDeskAPI.Domain.Interfaces;
 using DxHelpDeskAPI.Extensions;
+using DxHelpDeskAPI.Persistence.Repositories;
+using DxHelpDeskAPI.Application.Services;
+using AutoMapper;
 
 var builder = WebApplication.CreateBuilder(args);
+
+
+builder.Services.AddScoped(typeof(IRepositoryBase<>), typeof(RepositoryBase<>));
+builder.Services.AddScoped(typeof(IService<>), typeof(Service<>));
+builder.Services.AddAutoMapper(typeof(MappingProfile));
 
 // Add services to the container.
 

@@ -1,13 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace DxHelpDeskAPI.ViewModels.TicketModels;
+namespace DxHelpDeskAPI.Application.DTOs;
 
-public partial class Ticketduration
+public partial class TicketdurationDTO
 {
     public int TicketId { get; set; }
 
     public int? TotalHours { get; set; }
 
-    public virtual Ticket Ticket { get; set; } = null!;
+    public virtual TicketDTO Ticket { get; set; } = null!;
 }

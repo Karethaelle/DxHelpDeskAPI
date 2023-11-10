@@ -1,8 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
-using DxHelpDeskAPI.ViewModels.UserModels;
 
-namespace DxHelpDeskAPI.ViewModels.TicketModels;
+namespace DxHelpDeskAPI.Domain.Entities.Models;
 
 public partial class Ticket
 {

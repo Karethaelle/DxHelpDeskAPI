@@ -1,10 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
-using DxHelpDeskAPI.ViewModels.UserModels;
+namespace DxHelpDeskAPI.Application.DTOs;
 
-namespace DxHelpDeskAPI.ViewModels.TicketModels;
-
-public partial class Ticket
+public partial class TicketDTO
 {
     public int Id { get; set; }
 
@@ -30,19 +28,19 @@ public partial class Ticket
 
     public int? BranchId { get; set; }
 
-    public virtual User? Assignee { get; set; }
+    public virtual UserDTO? Assignee { get; set; }
 
-    public virtual Ticketpriority? Priority { get; set; }
+    public virtual TicketpriorityDTO? Priority { get; set; }
 
-    public virtual Ticketstatus? Status { get; set; }
+    public virtual TicketstatusDTO? Status { get; set; }
 
-    public virtual ICollection<Ticketattachment> Ticketattachments { get; set; } = new List<Ticketattachment>();
+    public virtual ICollection<TicketattachmentDTO> Ticketattachments { get; set; } = new List<TicketattachmentDTO>();
 
-    public virtual ICollection<Ticketcomment> Ticketcomments { get; set; } = new List<Ticketcomment>();
+    public virtual ICollection<TicketcommentDTO> Ticketcomments { get; set; } = new List<TicketcommentDTO>();
 
-    public virtual Ticketduration? Ticketduration { get; set; }
+    public virtual TicketdurationDTO? Ticketduration { get; set; }
 
-    public virtual Tickettype? Type { get; set; }
+    public virtual TickettypeDTO? Type { get; set; }
 
-    public virtual User? User { get; set; }
+    public virtual UserDTO? User { get; set; }
 }

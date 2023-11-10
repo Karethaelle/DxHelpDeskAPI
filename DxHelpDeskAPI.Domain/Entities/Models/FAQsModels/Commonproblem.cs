@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace DxHelpDeskAPI.ViewModels.FAQsModels;
+namespace DxHelpDeskAPI.Domain.Entities.Models;
 
 public partial class Commonproblem
 {

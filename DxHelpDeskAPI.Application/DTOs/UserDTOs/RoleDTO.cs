@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace DxHelpDeskAPI.ViewModels.UserModels;
+namespace DxHelpDeskAPI.Application.DTOs;
 
-public partial class Role
+public partial class RoleDTO
 {
     public int Id { get; set; }
 

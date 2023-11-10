@@ -1,12 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
-using DxHelpDeskAPI.ViewModels.AudittrailModels;
-using DxHelpDeskAPI.ViewModels.CompanyModels;
-using DxHelpDeskAPI.ViewModels.TicketModels;
 
-namespace DxHelpDeskAPI.ViewModels.UserModels;
+namespace DxHelpDeskAPI.Application.DTOs;
 
-public partial class User
+public partial class UserDTO
 {
     public int Id { get; set; }
 
@@ -24,15 +21,15 @@ public partial class User
 
     public DateTime? UpdatedAt { get; set; }
 
-    public virtual ICollection<Audittrail> Audittrails { get; set; } = new List<Audittrail>();
+    public virtual ICollection<AudittrailDTO> Audittrails { get; set; } = new List<AudittrailDTO>();
 
-    public virtual ICollection<Ticket> TicketAssignees { get; set; } = new List<Ticket>();
+    public virtual ICollection<TicketDTO> TicketAssignees { get; set; } = new List<TicketDTO>();
 
-    public virtual ICollection<Ticket> TicketUsers { get; set; } = new List<Ticket>();
+    public virtual ICollection<TicketDTO> TicketUsers { get; set; } = new List<TicketDTO>();
 
-    public virtual ICollection<Ticketcomment> Ticketcomments { get; set; } = new List<Ticketcomment>();
+    public virtual ICollection<TicketcommentDTO> Ticketcomments { get; set; } = new List<TicketcommentDTO>();
 
-    public virtual ICollection<Branch> Branches { get; set; } = new List<Branch>();
+    public virtual ICollection<BranchDTO> Branches { get; set; } = new List<BranchDTO>();
 
-    public virtual ICollection<Company> Companies { get; set; } = new List<Company>();
+    public virtual ICollection<CompanyDTO> Companies { get; set; } = new List<CompanyDTO>();
 }

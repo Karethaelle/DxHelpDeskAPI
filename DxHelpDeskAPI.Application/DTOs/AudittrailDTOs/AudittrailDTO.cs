@@ -1,10 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
-using DxHelpDeskAPI.ViewModels.UserModels;
 
-namespace DxHelpDeskAPI.ViewModels.AudittrailModels;
+namespace DxHelpDeskAPI.Application.DTOs;
 
-public partial class Audittrail
+public partial class AudittrailDTO
 {
     public int Id { get; set; }
 
@@ -20,5 +19,5 @@ public partial class Audittrail
 
     public DateTime? CreatedAt { get; set; }
 
-    public virtual User? User { get; set; }
+    public virtual UserDTO? User { get; set; }
 }

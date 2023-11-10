@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DxHelpDeskAPI.Domain.Exceptions
 {
-    internal class Exceptions
+    public class Exceptions
     {
     }
 }
