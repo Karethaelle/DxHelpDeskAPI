@@ -5,14 +5,17 @@ using DxHelpDeskAPI.Extensions;
 using DxHelpDeskAPI.Persistence.Repositories;
 using DxHelpDeskAPI.Application.Services;
 using AutoMapper;
+using System.Reflection;
 
 var builder = WebApplication.CreateBuilder(args);
 
 
-builder.Services.AddScoped(typeof(IRepositoryBase<>), typeof(RepositoryBase<>));
-builder.Services.AddScoped(typeof(IService<>), typeof(Service<>));
 builder.Services.AddAutoMapper(typeof(MappingProfile));
+// Get the assemblies where services and repositories are located
+Assembly[] targetAssemblies = { Assembly.GetExecutingAssembly() }; // Add other assemblies if needed
 
+// Add services and repositories to the DI container
+builder.Services.AddServicesAndRepositories(targetAssemblies);
 // Add services to the container.
 
 builder.Services.AddControllers();

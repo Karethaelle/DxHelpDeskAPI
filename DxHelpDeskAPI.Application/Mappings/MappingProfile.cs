@@ -16,24 +16,7 @@ namespace DxHelpDeskAPI.Application.Mappings
     {
         public MappingProfile()
         {
-            // Get all types within the specified namespaces
-            var modelTypes = Assembly.GetExecutingAssembly().GetTypes()
-                                     .Where(t => t.Namespace == "DxHelpDeskAPI.Domain.Entities.Models")
-                                     .ToList();
-            var dtoTypes = Assembly.GetExecutingAssembly().GetTypes()
-                                   .Where(t => t.Namespace == "DxHelpDeskAPI.Application.DTOs")
-                                   .ToList();
 
-            // Create mappings for each found type
-            foreach (var type in modelTypes)
-            {
-                var dtoType = dtoTypes.FirstOrDefault(t => t.Name == $"{type.Name}Dto");
-                if (dtoType != null)
-                {
-                    CreateMap(type, dtoType);
-                    CreateMap(dtoType, type);
-                }
-            }
         }
     }
 }
