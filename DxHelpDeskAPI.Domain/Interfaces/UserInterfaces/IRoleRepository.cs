@@ -11,7 +11,7 @@ namespace DxHelpDeskAPI.Domain.Interfaces.UserInterfaces
     {
         Task<IEnumerable<Role>> GetAllRolesAsync(bool trackChanges);
         Task<Role> GetRoleByIdAsync(int id, bool trackChanges);
-        Task<IEnumerable<Role>> FindRoleByStatusAsync(int status, bool trackChanges);
+        Task<IEnumerable<Role>> GetRoleByStatusAsync(int status, bool trackChanges);
         Task CreateRoleAsync(Role role);
         Task UpdateRoleAsync(Role role);
     }

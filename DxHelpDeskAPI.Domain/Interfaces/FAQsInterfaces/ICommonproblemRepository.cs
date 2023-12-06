@@ -11,7 +11,7 @@ namespace DxHelpDeskAPI.Domain.Interfaces
     {
         Task<IEnumerable<Commonproblem>> GetAllCommonproblemsAsync(bool trackChanges);
         Task<Commonproblem> GetCommonproblemByIdAsync(int id, bool trackChanges);
-        Task<IEnumerable<Commonproblem>> FindCommonproblemByStatusAsync(int status, bool trackChanges);
+        Task<IEnumerable<Commonproblem>> GetCommonproblemByStatusAsync(int status, bool trackChanges);
         Task CreateCommonproblemAsync(Commonproblem commonProblem);
         Task UpdateCommonproblemAsync(Commonproblem commonProblem);
     }

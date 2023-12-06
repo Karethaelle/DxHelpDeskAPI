@@ -11,7 +11,7 @@ namespace DxHelpDeskAPI.Domain.Interfaces
     {
         Task<IEnumerable<Ticketpriority>> GetAllTicketpriorityAsync(bool trackChanges);
         Task<Ticketpriority> GetTicketpriorityByIdAsync(int id, bool trackChanges);
-        Task<IEnumerable<Ticketpriority>> FindTicketpriorityByStatusAsync(int status, bool trackChanges);
+        Task<IEnumerable<Ticketpriority>> GetTicketpriorityByStatusAsync(int status, bool trackChanges);
         Task CreateTicketpriorityAsync(Ticketpriority ticketPriority);
         Task UpdateTicketpriorityAsync(Ticketpriority ticketPriority);
     }

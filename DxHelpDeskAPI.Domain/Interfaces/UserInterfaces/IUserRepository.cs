@@ -11,7 +11,7 @@ namespace DxHelpDeskAPI.Domain.Interfaces.UserInterfaces
     {
         Task<IEnumerable<User>> GetAllUsersAsync(bool trackChanges);
         Task<User> GetUserByIdAsync(int id, bool trackChanges);
-        Task<IEnumerable<User>> FindUserByStatusAsync(int status, bool trackChanges);
+        Task<IEnumerable<User>> GetUserByStatusAsync(int status, bool trackChanges);
         Task CreateUserAsync(User user);
         Task UpdateUserAsync(User user);
     }

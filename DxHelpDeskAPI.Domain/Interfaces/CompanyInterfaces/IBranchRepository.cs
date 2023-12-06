@@ -11,7 +11,7 @@ namespace DxHelpDeskAPI.Domain.Interfaces
     {
         Task<IEnumerable<Branch>> GetAllBranchesAsync(bool trackChanges);
         Task<Branch> GetBranchByIdAsync(int id, bool trackChanges);
-        Task<IEnumerable<Branch>> FindBranchByStatusAsync(int status, bool trackChanges);
+        Task<IEnumerable<Branch>> GetBranchByStatusAsync(int status, bool trackChanges);
         Task CreateBranchAsync(Branch branch);
         Task UpdateBranchAsync(Branch branch);
     }

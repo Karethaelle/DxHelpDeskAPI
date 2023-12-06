@@ -19,7 +19,7 @@ namespace DxHelpDeskAPI.Persistence.Repositories
             throw new NotImplementedException();
         }
 
-        public Task<IEnumerable<Audittrail>> FindAudittrailByStatusAsync(int status, bool trackChanges)
+        public Task<IEnumerable<Audittrail>> GetAudittrailByStatusAsync(int status, bool trackChanges)
         {
             throw new NotImplementedException();
         }

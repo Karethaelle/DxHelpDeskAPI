@@ -17,11 +17,15 @@ namespace DxHelpDeskAPI.Persistence.Repositories
 
         public async Task<IEnumerable<Ticket>> GetAllTicketsAsync(bool trackChanges) =>
             await GetAllAsync(trackChanges);
+
         public async Task<Ticket> GetTicketByIdAsync(int id, bool trackChanges) =>
             await GetTicketByIdAsync(id, trackChanges);
+
         public async Task<IEnumerable<Ticket>> GetTicketsByStatusAsync(int status, bool trackChanges) => 
             await GetByConditionAsync(t => t.StatusId.Equals(status),trackChanges);
+
         public async Task CreateTicketAsync(Ticket ticket) => await CreateAsync(ticket);
+
         public async Task UpdateTicketAsync(Ticket ticket) => await UpdateAsync(ticket);
     }
 }

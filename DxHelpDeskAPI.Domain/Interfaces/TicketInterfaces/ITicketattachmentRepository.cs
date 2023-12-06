@@ -11,7 +11,6 @@ namespace DxHelpDeskAPI.Domain.Interfaces
     {
         Task<IEnumerable<Ticketattachment>> GetAllTicketattachmentsAsync(bool trackChanges);
         Task<Ticketattachment> GetTicketattachmentByIdAsync(int id, bool trackChanges);
-        Task<IEnumerable<Ticketattachment>> FindTicketattachmentByStatusAsync(int status, bool trackChanges);
         Task CreateTicketattachmentAsync(Ticketattachment ticketAttachment);
         Task UpdateTicketattachmentAsync(Ticketattachment ticketAttachment);
     }

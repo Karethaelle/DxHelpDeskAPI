@@ -11,7 +11,7 @@ namespace DxHelpDeskAPI.Domain.Interfaces
     {
         Task<IEnumerable<Company>> GetAllCompaniesAsync(bool trackChanges);
         Task<Company> GetCompanyByIdAsync(int id, bool trackChanges);
-        Task<IEnumerable<Company>> FindCompanyByStatusAsync(int status, bool trackChanges);
+        Task<IEnumerable<Company>> GetCompanyByStatusAsync(int status, bool trackChanges);
         Task CreateCompanyAsync(Company company);
         Task UpdateCompanyAsync(Company company);
     }

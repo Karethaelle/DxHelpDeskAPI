@@ -11,7 +11,6 @@ namespace DxHelpDeskAPI.Domain.Interfaces
     {
         Task<IEnumerable<Ticketduration>> GetAllTicketdurationAsync(bool trackChanges);
         Task<Ticketduration> GetTicketdurationByIdAsync(int id, bool trackChanges);
-        Task<IEnumerable<Ticketduration>> FindTicketdurationByStatusAsync(int status, bool trackChanges);
         Task CreateTicketdurationAsync(Ticketduration ticketDuration);
         Task UpdateTicketdurationAsync(Ticketduration ticketDuration);
     }
