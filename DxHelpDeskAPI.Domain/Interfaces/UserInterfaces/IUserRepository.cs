@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DxHelpDeskAPI.Domain.Interfaces.UserInterfaces
+namespace DxHelpDeskAPI.Domain.Interfaces
 {
     public interface IUserRepository : IRepositoryBase<User>
     {

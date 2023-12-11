@@ -6,11 +6,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DxHelpDeskAPI.Persistence.Repositories.UserRepositories
+namespace DxHelpDeskAPI.Persistence.Repositories
 {
-    internal sealed class UserrroleRepository : RepositoryBase<Userrole>, IUserroleRepository
+    internal sealed class UserroleRepository : RepositoryBase<Userrole>, IUserroleRepository
     {
-        public UserrroleRepository(DxHelpDeskDBContext context) : base(context)
+        public UserroleRepository(DxHelpDeskDBContext context) : base(context)
         {
         }
 

@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DxHelpDeskAPI.Domain.Exceptions
+namespace DxHelpDeskAPI.Application.Exceptions
 {
-    public class Exceptions
+    public class NotFoundException : Exception
     {
     }
 }

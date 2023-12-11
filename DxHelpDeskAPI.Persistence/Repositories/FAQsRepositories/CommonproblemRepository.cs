@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DxHelpDeskAPI.Persistence.Repositories.FAQsRepositories
+namespace DxHelpDeskAPI.Persistence.Repositories
 {
     internal sealed class CommonproblemRepository : RepositoryBase<Commonproblem>, ICommonproblemRepository
     {

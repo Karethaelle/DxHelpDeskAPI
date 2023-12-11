@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DxHelpDeskAPI.Persistence
+namespace DxHelpDeskAPI.Persistence.Repositories
 {
     internal sealed class BranchRepository : RepositoryBase<Branch>, IBranchRepository
     {

@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DxHelpDeskAPI.Persistence.Repositories.TicketRepositories
+namespace DxHelpDeskAPI.Persistence.Repositories
 {
     internal sealed class TicketattachmentRepository : RepositoryBase<Ticketattachment>, ITicketattachmentRepository
     {

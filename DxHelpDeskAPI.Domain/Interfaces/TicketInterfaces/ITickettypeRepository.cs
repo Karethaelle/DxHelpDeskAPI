@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DxHelpDeskAPI.Domain.Interfaces.TicketInterfaces
+namespace DxHelpDeskAPI.Domain.Interfaces
 {
     public interface ITickettypeRepository : IRepositoryBase<Tickettype>
     {

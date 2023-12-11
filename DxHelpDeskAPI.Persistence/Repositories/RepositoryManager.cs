@@ -18,7 +18,7 @@ namespace DxHelpDeskAPI.Persistence.Repositories
         private readonly Lazy<IBranchRepository> _branchRepository;
         private readonly Lazy<ICommonproblemRepository> _commonproblemRepository;
         private readonly Lazy<ITicketattachmentRepository> _ticketattachmentRepository;
-        private readonly Lazy<ITicketcommentRepository> _icketcommentRepository;
+        private readonly Lazy<ITicketcommentRepository> _ticketcommentRepository;
         private readonly Lazy<ITicketdurationRepository> _ticketdurationRepository;
         private readonly Lazy<ITicketpriorityRepository> _ticketpriorityRepository;
         private readonly Lazy<ITicketRepository> _ticketRepository;
@@ -33,7 +33,7 @@ namespace DxHelpDeskAPI.Persistence.Repositories
         public IBranchRepository BranchRepository => _branchRepository.Value;
         public ICommonproblemRepository CommonproblemRepository => _commonproblemRepository.Value;
         public ITicketattachmentRepository TicketattachmentRepository => _ticketattachmentRepository.Value;
-        public ITicketcommentRepository TicketcommentRepository => _icketcommentRepository.Value;
+        public ITicketcommentRepository TicketcommentRepository => _ticketcommentRepository.Value;
         public ITicketdurationRepository TicketdurationRepository => _ticketdurationRepository.Value;
         public ITicketpriorityRepository TicketpriorityRepository => _ticketpriorityRepository.Value;
         public ITicketRepository TicketRepository => _ticketRepository.Value;
@@ -46,6 +46,21 @@ namespace DxHelpDeskAPI.Persistence.Repositories
         public RepositoryManager(DxHelpDeskDBContext repositoryContext)
         {
             _repositoryContext = repositoryContext;
+            _audittrailRepository = new Lazy<IAudittrailRepository>(() => new AudittrailRepository(repositoryContext));
+            _companyRepository = new Lazy<ICompanyRepository>(() => new CompanyRepository(repositoryContext));
+            _branchRepository = new Lazy<IBranchRepository>(() => new BranchRepository(repositoryContext));
+            _commonproblemRepository = new Lazy<ICommonproblemRepository>(() => new CommonproblemRepository(repositoryContext));
+            _ticketattachmentRepository = new Lazy<ITicketattachmentRepository>(() => new TicketattachmentRepository(repositoryContext));
+            _ticketcommentRepository = new Lazy<ITicketcommentRepository>(() => new TicketcommentRepository(repositoryContext));
+            _ticketdurationRepository = new Lazy<ITicketdurationRepository>(() => new TicketdurationRepository(repositoryContext));
+            _ticketpriorityRepository = new Lazy<ITicketpriorityRepository>(() => new TicketpriorityRepository(repositoryContext));
+            _ticketRepository = new Lazy<ITicketRepository>(() => new TicketRepository(repositoryContext));
+            _ticketstatusRepository = new Lazy<ITicketstatusRepository>(() => new TicketstatusRepository(repositoryContext));
+            _tickettypeRepository = new Lazy<ITickettypeRepository>(() => new TickettypeRepository(repositoryContext));
+            _userRepository = new Lazy<IUserRepository>(() => new UserRepository(repositoryContext));
+            _roleRepository = new Lazy<IRoleRepository>(() => new RoleRepository(repositoryContext));
+            _userroleRepository = new Lazy<IUserroleRepository>(() => new UserroleRepository(repositoryContext));
+            //_tickettypeRepository = new Lazy<IAudittrailRepository>(() => new AudittrailRepository(repositoryContext));
         }
         public async Task BeginTransactionAsync() => await _repositoryContext.Database.BeginTransactionAsync();
         public async Task RollBackTransactionAsync() => await _repositoryContext.Database.RollbackTransactionAsync();

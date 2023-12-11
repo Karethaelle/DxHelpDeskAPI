@@ -8,7 +8,7 @@ using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DxHelpDeskAPI.Persistence.Repositories.TicketRepositories
+namespace DxHelpDeskAPI.Persistence.Repositories
 {
     internal sealed class TicketcommentRepository : RepositoryBase<Ticketcomment>, ITicketcommentRepository
     {
