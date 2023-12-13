@@ -1,5 +1,5 @@
 ﻿using DxHelpDeskAPI.Domain.Entities.Models;
-using DxHelpDeskAPI.Domain.Interfaces.UserInterfaces;
+using DxHelpDeskAPI.Domain.Interfaces;
 using System;
 using System.Collections.Generic;
 using System.Linq;

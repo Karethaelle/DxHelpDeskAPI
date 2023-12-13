@@ -1,6 +1,5 @@
 ﻿using DxHelpDeskAPI.Domain.Entities.Models;
 using DxHelpDeskAPI.Domain.Interfaces;
-using DxHelpDeskAPI.Domain.Interfaces.TicketInterfaces;
 using System;
 using System.Collections.Generic;
 using System.Linq;

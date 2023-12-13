@@ -1,4 +1,9 @@
-﻿using Microsoft.AspNetCore.Builder;
+﻿using DxHelpDeskAPI.Application.Interfaces;
+using DxHelpDeskAPI.Application.Services;
+using DxHelpDeskAPI.Domain.Interfaces;
+using DxHelpDeskAPI.Logger;
+using DxHelpDeskAPI.Persistence.Repositories;
+using Microsoft.AspNetCore.Builder;
 using System.Reflection;
 
 namespace DxHelpDeskAPI.Extensions
@@ -6,40 +11,30 @@ namespace DxHelpDeskAPI.Extensions
     public static class ServiceExtensions
     {
         // ... Other extension methods ...
-
+        public static void ConfigureCors(this IServiceCollection services) =>
+       services.AddCors(options =>
+       {
+           options.AddPolicy("CorsPolicy", builder =>
+           builder.AllowAnyOrigin()
+           .AllowAnyMethod()
+           .AllowAnyHeader());
+       });
         public static void ConfigureExceptionHandler(this IApplicationBuilder app)
         {
             app.UseMiddleware<ErrorHandlerMiddleware>();
         }
-        public static void AddServicesAndRepositories(this IServiceCollection services, Assembly[] assemblies)
-        {
-            // Automatically register all repositories
-            var repositoryTypes = assemblies
-                .SelectMany(a => a.GetTypes())
-                .Where(t => t.Name.EndsWith("Repository") && t.GetInterfaces().Any())
-                .ToList();
+        public static void ConfigureIISIntegration(this IServiceCollection services) =>
+           services.Configure<IISOptions>(options =>
+           {
+           });
 
-            foreach (var type in repositoryTypes)
-            {
-                foreach (var implementedInterface in type.GetInterfaces())
-                {
-                    services.AddScoped(implementedInterface, type);
-                }
-            }
+        public static void ConfigureLoggerService(this IServiceCollection services) =>
+            services.AddSingleton<ILoggerManager, LoggerManager>();
 
-            // Automatically register all services
-            var serviceTypes = assemblies
-                .SelectMany(a => a.GetTypes())
-                .Where(t => t.Name.EndsWith("Service") && t.GetInterfaces().Any())
-                .ToList();
+        public static void ConfigureRepositoryManager(this IServiceCollection services) =>
+            services.AddScoped<IRepositoryManager, RepositoryManager>();
 
-            foreach (var type in serviceTypes)
-            {
-                foreach (var implementedInterface in type.GetInterfaces())
-                {
-                    services.AddScoped(implementedInterface, type);
-                }
-            }
-        }
+        public static void ConfigureServiceManager(this IServiceCollection services) =>
+            services.AddScoped<IServiceManager, ServiceManager>();
     }
 }

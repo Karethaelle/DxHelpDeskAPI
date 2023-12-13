@@ -1,8 +1,10 @@
-﻿using DxHelpDeskAPI.Domain.Interfaces;
-using DxHelpDeskAPI.Domain.Interfaces.TicketInterfaces;
-using DxHelpDeskAPI.Domain.Interfaces.UserInterfaces;
+﻿using DxHelpDeskAPI.Domain.Exceptions;
+using DxHelpDeskAPI.Domain.Interfaces;
+using DxHelpDeskAPI.Persistence.Exceptions;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -71,19 +73,28 @@ namespace DxHelpDeskAPI.Persistence.Repositories
             {
                 await _repositoryContext.SaveChangesAsync();
             }
-            catch (Exception ex)
+            catch (DbUpdateConcurrencyException ex)
             {
-                if (ex.InnerException != null && ex.InnerException.Message != "")
+                // Handle concurrency exceptions
+                throw new DatabaseException("A concurrency error occurred while saving data.", ex);
+            }
+            catch (DbUpdateException ex)
+            {
+                if (ex.InnerException != null && ex.InnerException.Message.Contains("Duplicate entry"))
                 {
-                    if (ex.InnerException.Message.Contains("Duplicate entry"))
-                        throw new CustomExceptionConflict(ex.InnerException.Message);
-                    else
-                        throw new CustomExceptionBadRequest(ex.InnerException.Message);
+                    // Handle duplicate entry scenarios
+                    throw new RepositoryException("Duplicate entry found.", ex);
                 }
                 else
                 {
-                    throw new CustomExceptionBadRequest(ex.Message);
+                    // Handle other database update exceptions
+                    throw new RepositoryException("An error occurred while updating the database.", ex);
                 }
+            }
+            catch (Exception ex)
+            {
+                // Handle other exceptions that are not specific to database operations
+                throw new RepositoryException("An unexpected error occurred while saving changes.", ex);
             }
         }
     }

@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DxHelpDeskAPI.Domain.Interfaces
+namespace DxHelpDeskAPI.Application.Interfaces
 {
     public interface IUserService
     {

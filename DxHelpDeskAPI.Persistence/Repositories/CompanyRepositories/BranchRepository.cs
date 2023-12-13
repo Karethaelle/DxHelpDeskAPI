@@ -21,19 +21,12 @@ namespace DxHelpDeskAPI.Persistence.Repositories
         public async Task<IEnumerable<Branch>> GetBranchByStatusAsync(int status, bool trackChanges) =>
             await GetByConditionAsync(b => b.Status.Equals(status), trackChanges);
 
-        public Task<IEnumerable<Branch>> GetAllBranchesAsync(bool trackChanges)
-        {
-            throw new NotImplementedException();
-        }
+        public async Task<IEnumerable<Branch>> GetAllBranchesAsync(bool trackChanges) =>
+            await GetAllAsync(trackChanges);
 
-        public Task<Branch> GetBranchByIdAsync(int id, bool trackChanges)
-        {
-            throw new NotImplementedException();
-        }
-
-        public Task UpdateBranchAsync(Branch branch)
-        {
-            throw new NotImplementedException();
-        }
+        public async Task<Branch> GetBranchByIdAsync(int id, bool trackChanges) =>
+            await GetBranchByIdAsync(id, trackChanges);
+        public async Task UpdateBranchAsync(Branch branch) =>
+            await UpdateAsync(branch);
     }
 }

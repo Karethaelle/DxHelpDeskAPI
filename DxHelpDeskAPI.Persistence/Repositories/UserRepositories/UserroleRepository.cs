@@ -1,10 +1,10 @@
 ﻿using DxHelpDeskAPI.Domain.Entities.Models;
-using DxHelpDeskAPI.Domain.Interfaces.UserInterfaces;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using DxHelpDeskAPI.Domain.Interfaces;
 
 namespace DxHelpDeskAPI.Persistence.Repositories
 {

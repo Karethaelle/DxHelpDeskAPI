@@ -1,6 +1,6 @@
 ﻿using DxHelpDeskAPI.Application.DTOs;
 using DxHelpDeskAPI.Domain.Entities.Models;
-using DxHelpDeskAPI.Domain.Interfaces;
+using DxHelpDeskAPI.Application.Interfaces;
 using System;
 using System.Collections.Generic;
 using System.Linq;

@@ -1,8 +1,10 @@
 ﻿
+using DxHelpDeskAPI.Persistence.Exceptions;
 using DxHelpDeskAPI.Domain.Interfaces;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Linq;
 using System.Linq.Expressions;
 using System.Text;
@@ -77,7 +79,32 @@ namespace DxHelpDeskAPI.Persistence.Repositories
 
         public async Task SaveAsync()
         {
-            await _context.SaveChangesAsync();
+            try
+            {
+                await _context.SaveChangesAsync();
+            }
+            catch (DbUpdateConcurrencyException ex)
+            {
+                // Handle concurrency issues (optimistic concurrency control)
+                throw new DatabaseException("A concurrency error occurred while saving data.", ex);
+            }
+            catch (DbUpdateException ex)
+            {
+                // Handle known database update issues (e.g., violating constraints)
+                if (ex.InnerException != null && ex.InnerException.Message.Contains("Violation of UNIQUE KEY constraint"))
+                {
+                    throw new DatabaseException("A duplicate record exists.", ex);
+                }
+                else
+                {
+                    throw new DatabaseException("An error occurred while updating the database.", ex);
+                }
+            }
+            catch (Exception ex)
+            {
+                // Handle other unexpected exceptions
+                throw new RepositoryException("An unexpected error occurred while saving changes.", ex);
+            }
         }
 
     }

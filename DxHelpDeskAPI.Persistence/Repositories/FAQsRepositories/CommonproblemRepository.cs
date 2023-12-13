@@ -14,29 +14,19 @@ namespace DxHelpDeskAPI.Persistence.Repositories
         {
         }
 
-        public Task CreateCommonproblemAsync(Commonproblem commonProblem)
-        {
-            throw new NotImplementedException();
-        }
+        public async Task CreateCommonproblemAsync(Commonproblem commonProblem) => 
+            await CreateAsync(commonProblem);
 
-        public Task<IEnumerable<Commonproblem>> GetAllCommonproblemsAsync(bool trackChanges)
-        {
-            throw new NotImplementedException();
-        }
+        public async Task<IEnumerable<Commonproblem>> GetAllCommonproblemsAsync(bool trackChanges) => 
+            await GetAllAsync(trackChanges);
 
-        public Task<Commonproblem> GetCommonproblemByIdAsync(int id, bool trackChanges)
-        {
-            throw new NotImplementedException();
-        }
+        public async Task<Commonproblem> GetCommonproblemByIdAsync(int id, bool trackChanges) => 
+            await GetCommonproblemByIdAsync(id, trackChanges);
 
-        public Task<IEnumerable<Commonproblem>> GetCommonproblemByStatusAsync(int status, bool trackChanges)
-        {
-            throw new NotImplementedException();
-        }
+        public async Task<IEnumerable<Commonproblem>> GetCommonproblemByStatusAsync(int status, bool trackChanges) =>
+            await GetByConditionAsync(cp => cp.Status.Equals(status), trackChanges);
 
-        public Task UpdateCommonproblemAsync(Commonproblem commonProblem)
-        {
-            throw new NotImplementedException();
-        }
+        public async Task UpdateCommonproblemAsync(Commonproblem commonProblem) =>
+            await UpdateAsync(commonProblem);
     }
 }

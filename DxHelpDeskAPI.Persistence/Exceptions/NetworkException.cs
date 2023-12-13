@@ -4,10 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DxHelpDeskAPI.Domain.Exceptions
+namespace DxHelpDeskAPI.Persistence.Exceptions
 {
-    public class DomainExceptions : Exception
+    public class NetworkException : Exception
     {
-
     }
 }

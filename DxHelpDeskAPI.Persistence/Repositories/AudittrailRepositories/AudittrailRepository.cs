@@ -3,6 +3,7 @@ using DxHelpDeskAPI.Domain.Interfaces;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.InteropServices.ComTypes;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -14,30 +15,17 @@ namespace DxHelpDeskAPI.Persistence.Repositories
         {
         }
 
-        public Task CreateAudittrailAsync(Audittrail audittrail)
-        {
-            throw new NotImplementedException();
-        }
+        public async Task CreateAudittrailAsync(Audittrail audittrail) =>
+            await CreateAsync(audittrail);
 
-        public Task<IEnumerable<Audittrail>> GetAudittrailByStatusAsync(int status, bool trackChanges)
-        {
-            throw new NotImplementedException();
-        }
+        public async Task<IEnumerable<Audittrail>> GetAllAudittrailsAsync(bool trackChanges) =>
+            await GetAllAsync(trackChanges);
 
-        public Task<IEnumerable<Audittrail>> GetAllAudittrailsAsync(bool trackChanges)
-        {
-            throw new NotImplementedException();
-        }
+        public async Task<Audittrail> GetAudittrailByIdAsync(int id, bool trackChanges) =>
+            await GetByIdAsync(id, trackChanges);
 
-        public Task<Audittrail> GetAudittrailByIdAsync(int id, bool trackChanges)
-        {
-            throw new NotImplementedException();
-        }
-
-        public Task UpdateAudittrailAsync(Audittrail audittrail)
-        {
-            throw new NotImplementedException();
-        }
+        public async Task UpdateAudittrailAsync(Audittrail audittrail) =>
+            await UpdateAsync(audittrail);
 
     }
 }
