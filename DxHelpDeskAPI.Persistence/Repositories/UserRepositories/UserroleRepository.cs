@@ -6,7 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using DxHelpDeskAPI.Domain.Interfaces;
 
-namespace DxHelpDeskAPI.Persistence.Repositories
+namespace DxHelpDeskAPI.Infrastructure.Repositories
 {
     internal sealed class UserroleRepository : RepositoryBase<Userrole>, IUserroleRepository
     {

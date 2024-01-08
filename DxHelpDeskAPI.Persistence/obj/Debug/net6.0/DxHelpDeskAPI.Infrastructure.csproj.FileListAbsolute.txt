@@ -1,0 +1,6 @@
+D:\BERT\NEW-HELPDESK\DxHelpDeskAPI\DxHelpDeskAPI\DxHelpDeskAPI.Persistence\obj\Debug\net6.0\DxHelpDeskAPI.Infrastructure.csproj.AssemblyReference.cache
+D:\BERT\NEW-HELPDESK\DxHelpDeskAPI\DxHelpDeskAPI\DxHelpDeskAPI.Persistence\obj\Debug\net6.0\DxHelpDeskAPI.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\BERT\NEW-HELPDESK\DxHelpDeskAPI\DxHelpDeskAPI\DxHelpDeskAPI.Persistence\obj\Debug\net6.0\DxHelpDeskAPI.Infrastructure.AssemblyInfoInputs.cache
+D:\BERT\NEW-HELPDESK\DxHelpDeskAPI\DxHelpDeskAPI\DxHelpDeskAPI.Persistence\obj\Debug\net6.0\DxHelpDeskAPI.Infrastructure.AssemblyInfo.cs
+D:\BERT\NEW-HELPDESK\DxHelpDeskAPI\DxHelpDeskAPI\DxHelpDeskAPI.Persistence\obj\Debug\net6.0\DxHelpDeskAPI.Infrastructure.csproj.CoreCompileInputs.cache
+D:\BERT\NEW-HELPDESK\DxHelpDeskAPI\DxHelpDeskAPI\DxHelpDeskAPI.Persistence\obj\Debug\net6.0\DxHelpDeskAPI.Infrastructure.sourcelink.json

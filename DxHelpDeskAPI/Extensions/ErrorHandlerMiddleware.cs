@@ -11,7 +11,7 @@ namespace DxHelpDeskAPI.Extensions
         public int ErrorCode { get; }
         public string UserFriendlyMessage { get; }
 
-        public ErrorHandlerMiddleware(string message, int errorCode, string userFriendlyMessage = null)
+        public ErrorHandlerMiddleware(string message, int errorCode, string userFriendlyMessage = "")
             : base(message)
         {
             ErrorCode = errorCode;

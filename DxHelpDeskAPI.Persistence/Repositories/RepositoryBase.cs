@@ -1,6 +1,6 @@
 ﻿
-using DxHelpDeskAPI.Persistence.Exceptions;
 using DxHelpDeskAPI.Domain.Interfaces;
+using DxHelpDeskAPI.Infrastructure.Exceptions;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -10,7 +10,7 @@ using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DxHelpDeskAPI.Persistence.Repositories
+namespace DxHelpDeskAPI.Infrastructure.Repositories
 {
     public class RepositoryBase<T> : IRepositoryBase<T> where T : class
     {

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using DxHelpDeskAPI.Domain.Entities.Models;
 using Microsoft.EntityFrameworkCore;
 
-namespace DxHelpDeskAPI.Persistence.Repositories;
+namespace DxHelpDeskAPI.Infrastructure.Repositories;
 
 public partial class DxHelpDeskDBContext : DbContext
 {

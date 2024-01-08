@@ -7,7 +7,7 @@ using System.Runtime.InteropServices.ComTypes;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DxHelpDeskAPI.Persistence.Repositories
+namespace DxHelpDeskAPI.Infrastructure.Repositories
 {
     internal sealed class AudittrailRepository : RepositoryBase<Audittrail>, IAudittrailRepository
     {

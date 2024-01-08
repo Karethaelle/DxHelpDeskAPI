@@ -391,7 +391,7 @@
           }
         }
       },
-      "NLog/5.2.7": {
+      "NLog/5.2.8": {
         "type": "package",
         "compile": {
           "lib/netstandard2.0/NLog.dll": {
@@ -404,12 +404,12 @@
           }
         }
       },
-      "NLog.Extensions.Logging/5.3.7": {
+      "NLog.Extensions.Logging/5.3.8": {
         "type": "package",
         "dependencies": {
           "Microsoft.Extensions.Configuration.Abstractions": "6.0.0",
           "Microsoft.Extensions.Logging": "6.0.0",
-          "NLog": "5.2.7"
+          "NLog": "5.2.8"
         },
         "compile": {
           "lib/net6.0/NLog.Extensions.Logging.dll": {
@@ -602,10 +602,7 @@
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
           "AutoMapper": "12.0.1",
-          "DxHelpDesk.Auth": "1.0.0",
-          "DxHelpDesk.Shared": "1.0.0",
-          "DxHelpDeskAPI.Domain": "1.0.0",
-          "DxHelpDeskAPI.Persistence": "1.0.0"
+          "DxHelpDeskAPI.Domain": "1.0.0"
         },
         "compile": {
           "bin/placeholder/DxHelpDeskAPI.Application.dll": {}
@@ -624,19 +621,21 @@
           "bin/placeholder/DxHelpDeskAPI.Domain.dll": {}
         }
       },
-      "DxHelpDeskAPI.Persistence/1.0.0": {
+      "DxHelpDeskAPI.Infrastructure/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
-          "DxHelpDeskAPI.Domain": "1.0.0",
+          "DxHelpDeskAPI.Application": "1.0.0",
           "Microsoft.EntityFrameworkCore": "7.0.13",
+          "NLog": "5.2.8",
+          "NLog.Extensions.Logging": "5.3.8",
           "Pomelo.EntityFrameworkCore.MySql": "7.0.0"
         },
         "compile": {
-          "bin/placeholder/DxHelpDeskAPI.Persistence.dll": {}
+          "bin/placeholder/DxHelpDeskAPI.Infrastructure.dll": {}
         },
         "runtime": {
-          "bin/placeholder/DxHelpDeskAPI.Persistence.dll": {}
+          "bin/placeholder/DxHelpDeskAPI.Infrastructure.dll": {}
         }
       }
     }
@@ -1465,10 +1464,10 @@
         "mysqlconnector.nuspec"
       ]
     },
-    "NLog/5.2.7": {
-      "sha512": "Ww/0b6V1NL8iqpFKtRKVQFFX03LoowNzYeNG6FpVzmhgCfLAkW0h/4lT3+V8mHfyvtHptNoV8Cz0YePLFRUaPA==",
+    "NLog/5.2.8": {
+      "sha512": "jAIELkWBs1CXFPp986KSGpDFQZHCFccO+LMbKBTTNm42KifaI1mYzFMFQQfuGmGMTrCx0TFPhDjHDE4cLAZWiQ==",
       "type": "package",
-      "path": "nlog/5.2.7",
+      "path": "nlog/5.2.8",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1485,14 +1484,14 @@
         "lib/netstandard1.5/NLog.xml",
         "lib/netstandard2.0/NLog.dll",
         "lib/netstandard2.0/NLog.xml",
-        "nlog.5.2.7.nupkg.sha512",
+        "nlog.5.2.8.nupkg.sha512",
         "nlog.nuspec"
       ]
     },
-    "NLog.Extensions.Logging/5.3.7": {
-      "sha512": "3VJFapWBopaQvGSuSUwWxjrK43RPC+pSi8yJisRQMdN87e/xmWLCzqrCzujU2fx9ktq4kRkZC3m/9PRLNBZ44g==",
+    "NLog.Extensions.Logging/5.3.8": {
+      "sha512": "6VD0lyeokWltL6j8lO7mS7v7lbuO/qn0F7kdvhKhEx1JvFyD39nzohOK3JvkVh4Nn3mrcMDCyDxvTvmiW55jQg==",
       "type": "package",
-      "path": "nlog.extensions.logging/5.3.7",
+      "path": "nlog.extensions.logging/5.3.8",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1512,7 +1511,7 @@
         "lib/netstandard2.0/NLog.Extensions.Logging.xml",
         "lib/netstandard2.1/NLog.Extensions.Logging.dll",
         "lib/netstandard2.1/NLog.Extensions.Logging.xml",
-        "nlog.extensions.logging.5.3.7.nupkg.sha512",
+        "nlog.extensions.logging.5.3.8.nupkg.sha512",
         "nlog.extensions.logging.nuspec"
       ]
     },
@@ -1791,10 +1790,10 @@
       "path": "../DxHelpDeskAPI.Domain/DxHelpDeskAPI.Domain.csproj",
       "msbuildProject": "../DxHelpDeskAPI.Domain/DxHelpDeskAPI.Domain.csproj"
     },
-    "DxHelpDeskAPI.Persistence/1.0.0": {
+    "DxHelpDeskAPI.Infrastructure/1.0.0": {
       "type": "project",
-      "path": "../DxHelpDeskAPI.Persistence/DxHelpDeskAPI.Persistence.csproj",
-      "msbuildProject": "../DxHelpDeskAPI.Persistence/DxHelpDeskAPI.Persistence.csproj"
+      "path": "../DxHelpDeskAPI.Persistence/DxHelpDeskAPI.Infrastructure.csproj",
+      "msbuildProject": "../DxHelpDeskAPI.Persistence/DxHelpDeskAPI.Infrastructure.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -1805,10 +1804,10 @@
       "DxHelpDesk.Shared >= 1.0.0",
       "DxHelpDeskAPI.Application >= 1.0.0",
       "DxHelpDeskAPI.Domain >= 1.0.0",
-      "DxHelpDeskAPI.Persistence >= 1.0.0",
+      "DxHelpDeskAPI.Infrastructure >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 7.0.13",
       "Microsoft.EntityFrameworkCore.Tools >= 7.0.13",
-      "NLog.Extensions.Logging >= 5.3.7",
+      "NLog.Extensions.Logging >= 5.3.8",
       "Pomelo.EntityFrameworkCore.MySql >= 7.0.0",
       "Swashbuckle.AspNetCore >= 6.5.0"
     ]
@@ -1818,6 +1817,7 @@
     "C:\\Program Files\\DevExpress 22.1\\Components\\Offline Packages": {},
     "C:\\Program Files\\DevExpress 22.2\\Components\\Offline Packages": {},
     "C:\\Program Files\\DevExpress 23.1\\Components\\Offline Packages": {},
+    "C:\\Program Files\\DevExpress 23.2\\Components\\Offline Packages": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
     "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
@@ -1825,16 +1825,17 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\BERT\\DxHelpDesk\\DxHelpDeskAPI\\DxHelpDeskAPI\\DxHelpDeskAPI.csproj",
+      "projectUniqueName": "D:\\BERT\\NEW-HELPDESK\\DxHelpDeskAPI\\DxHelpDeskAPI\\DxHelpDeskAPI\\DxHelpDeskAPI.csproj",
       "projectName": "DxHelpDeskAPI",
-      "projectPath": "D:\\BERT\\DxHelpDesk\\DxHelpDeskAPI\\DxHelpDeskAPI\\DxHelpDeskAPI.csproj",
+      "projectPath": "D:\\BERT\\NEW-HELPDESK\\DxHelpDeskAPI\\DxHelpDeskAPI\\DxHelpDeskAPI\\DxHelpDeskAPI.csproj",
       "packagesPath": "C:\\Users\\dvrds\\.nuget\\packages\\",
-      "outputPath": "D:\\BERT\\DxHelpDesk\\DxHelpDeskAPI\\DxHelpDeskAPI\\obj\\",
+      "outputPath": "D:\\BERT\\NEW-HELPDESK\\DxHelpDeskAPI\\DxHelpDeskAPI\\DxHelpDeskAPI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\DevExpress 22.1\\Components\\Offline Packages",
         "C:\\Program Files\\DevExpress 22.2\\Components\\Offline Packages",
         "C:\\Program Files\\DevExpress 23.1\\Components\\Offline Packages",
+        "C:\\Program Files\\DevExpress 23.2\\Components\\Offline Packages",
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
         "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -1844,6 +1845,7 @@
         "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 22.1.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 22.2.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 23.1.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 23.2.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
@@ -1855,6 +1857,7 @@
         "C:\\Program Files\\DevExpress 22.1\\Components\\System\\Components\\Packages": {},
         "C:\\Program Files\\DevExpress 22.2\\Components\\System\\Components\\Packages": {},
         "C:\\Program Files\\DevExpress 23.1\\Components\\System\\Components\\Packages": {},
+        "C:\\Program Files\\DevExpress 23.2\\Components\\System\\Components\\Packages": {},
         "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {},
         "https://nuget.devexpress.com/XADoKjffIIaBlj2pTJP2yhNTZFjLfH9uimRYDoeA3KwjHvEmfu/api": {}
@@ -1863,20 +1866,20 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\BERT\\DxHelpDesk\\DxHelpDeskAPI\\DxHelpDesk.Auth\\DxHelpDesk.Auth.csproj": {
-              "projectPath": "D:\\BERT\\DxHelpDesk\\DxHelpDeskAPI\\DxHelpDesk.Auth\\DxHelpDesk.Auth.csproj"
+            "D:\\BERT\\NEW-HELPDESK\\DxHelpDeskAPI\\DxHelpDeskAPI\\DxHelpDesk.Auth\\DxHelpDesk.Auth.csproj": {
+              "projectPath": "D:\\BERT\\NEW-HELPDESK\\DxHelpDeskAPI\\DxHelpDeskAPI\\DxHelpDesk.Auth\\DxHelpDesk.Auth.csproj"
             },
-            "D:\\BERT\\DxHelpDesk\\DxHelpDeskAPI\\DxHelpDesk.Shared\\DxHelpDesk.Shared.csproj": {
-              "projectPath": "D:\\BERT\\DxHelpDesk\\DxHelpDeskAPI\\DxHelpDesk.Shared\\DxHelpDesk.Shared.csproj"
+            "D:\\BERT\\NEW-HELPDESK\\DxHelpDeskAPI\\DxHelpDeskAPI\\DxHelpDesk.Shared\\DxHelpDesk.Shared.csproj": {
+              "projectPath": "D:\\BERT\\NEW-HELPDESK\\DxHelpDeskAPI\\DxHelpDeskAPI\\DxHelpDesk.Shared\\DxHelpDesk.Shared.csproj"
             },
-            "D:\\BERT\\DxHelpDesk\\DxHelpDeskAPI\\DxHelpDeskAPI.Application\\DxHelpDeskAPI.Application.csproj": {
-              "projectPath": "D:\\BERT\\DxHelpDesk\\DxHelpDeskAPI\\DxHelpDeskAPI.Application\\DxHelpDeskAPI.Application.csproj"
+            "D:\\BERT\\NEW-HELPDESK\\DxHelpDeskAPI\\DxHelpDeskAPI\\DxHelpDeskAPI.Application\\DxHelpDeskAPI.Application.csproj": {
+              "projectPath": "D:\\BERT\\NEW-HELPDESK\\DxHelpDeskAPI\\DxHelpDeskAPI\\DxHelpDeskAPI.Application\\DxHelpDeskAPI.Application.csproj"
             },
-            "D:\\BERT\\DxHelpDesk\\DxHelpDeskAPI\\DxHelpDeskAPI.Domain\\DxHelpDeskAPI.Domain.csproj": {
-              "projectPath": "D:\\BERT\\DxHelpDesk\\DxHelpDeskAPI\\DxHelpDeskAPI.Domain\\DxHelpDeskAPI.Domain.csproj"
+            "D:\\BERT\\NEW-HELPDESK\\DxHelpDeskAPI\\DxHelpDeskAPI\\DxHelpDeskAPI.Domain\\DxHelpDeskAPI.Domain.csproj": {
+              "projectPath": "D:\\BERT\\NEW-HELPDESK\\DxHelpDeskAPI\\DxHelpDeskAPI\\DxHelpDeskAPI.Domain\\DxHelpDeskAPI.Domain.csproj"
             },
-            "D:\\BERT\\DxHelpDesk\\DxHelpDeskAPI\\DxHelpDeskAPI.Persistence\\DxHelpDeskAPI.Persistence.csproj": {
-              "projectPath": "D:\\BERT\\DxHelpDesk\\DxHelpDeskAPI\\DxHelpDeskAPI.Persistence\\DxHelpDeskAPI.Persistence.csproj"
+            "D:\\BERT\\NEW-HELPDESK\\DxHelpDeskAPI\\DxHelpDeskAPI\\DxHelpDeskAPI.Persistence\\DxHelpDeskAPI.Infrastructure.csproj": {
+              "projectPath": "D:\\BERT\\NEW-HELPDESK\\DxHelpDeskAPI\\DxHelpDeskAPI\\DxHelpDeskAPI.Persistence\\DxHelpDeskAPI.Infrastructure.csproj"
             }
           }
         }
@@ -1911,7 +1914,7 @@
           },
           "NLog.Extensions.Logging": {
             "target": "Package",
-            "version": "[5.3.7, )"
+            "version": "[5.3.8, )"
           },
           "Pomelo.EntityFrameworkCore.MySql": {
             "target": "Package",
@@ -1941,7 +1944,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }

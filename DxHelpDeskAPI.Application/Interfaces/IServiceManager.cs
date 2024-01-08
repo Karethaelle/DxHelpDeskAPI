@@ -23,10 +23,5 @@ namespace DxHelpDeskAPI.Application.Interfaces
         IUserService UserService { get; }
         IRoleService RoleService { get; }
         IUserroleService UserroleService { get; }
-
-        Task SaveAsync();
-        Task BeginTransactionAsync();
-        Task RollBackTransactionAsync();
-        Task CommitTransactionAsync();
     }
 }

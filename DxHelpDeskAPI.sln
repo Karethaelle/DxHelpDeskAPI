@@ -9,7 +9,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DxHelpDeskAPI.Application",
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DxHelpDeskAPI.Domain", "DxHelpDeskAPI.Domain\DxHelpDeskAPI.Domain.csproj", "{40634CE3-A2AC-429C-BFEA-0B7D0752C814}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DxHelpDeskAPI.Persistence", "DxHelpDeskAPI.Persistence\DxHelpDeskAPI.Persistence.csproj", "{CF1A57D6-8F21-44B7-B616-332816C5B380}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DxHelpDeskAPI.Infrastructure", "DxHelpDeskAPI.Persistence\DxHelpDeskAPI.Infrastructure.csproj", "{CF1A57D6-8F21-44B7-B616-332816C5B380}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DxHelpDesk.Shared", "DxHelpDesk.Shared\DxHelpDesk.Shared.csproj", "{4A02D9BF-E414-4175-82A6-9ED9205320A7}"
 EndProject

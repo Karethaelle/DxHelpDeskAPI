@@ -17,10 +17,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\DxHelpDesk.Auth\DxHelpDesk.Auth.csproj" />
-    <ProjectReference Include="..\DxHelpDesk.Shared\DxHelpDesk.Shared.csproj" />
     <ProjectReference Include="..\DxHelpDeskAPI.Domain\DxHelpDeskAPI.Domain.csproj" />
-    <ProjectReference Include="..\DxHelpDeskAPI.Persistence\DxHelpDeskAPI.Persistence.csproj" />
   </ItemGroup>
 
 </Project>

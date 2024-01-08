@@ -5,3 +5,10 @@ D:\BERT\DxHelpDesk\DxHelpDeskAPI\DxHelpDeskAPI\obj\Debug\net6.0\DxHelpDeskAPI.As
 D:\BERT\DxHelpDesk\DxHelpDeskAPI\DxHelpDeskAPI\obj\Debug\net6.0\DxHelpDeskAPI.csproj.CoreCompileInputs.cache
 D:\BERT\DxHelpDesk\DxHelpDeskAPI\DxHelpDeskAPI\obj\Debug\net6.0\DxHelpDeskAPI.MvcApplicationPartsAssemblyInfo.cs
 D:\BERT\DxHelpDesk\DxHelpDeskAPI\DxHelpDeskAPI\obj\Debug\net6.0\DxHelpDeskAPI.MvcApplicationPartsAssemblyInfo.cache
+D:\BERT\NEW-HELPDESK\DxHelpDeskAPI\DxHelpDeskAPI\DxHelpDeskAPI\obj\Debug\net6.0\DxHelpDeskAPI.csproj.AssemblyReference.cache
+D:\BERT\NEW-HELPDESK\DxHelpDeskAPI\DxHelpDeskAPI\DxHelpDeskAPI\obj\Debug\net6.0\DxHelpDeskAPI.GeneratedMSBuildEditorConfig.editorconfig
+D:\BERT\NEW-HELPDESK\DxHelpDeskAPI\DxHelpDeskAPI\DxHelpDeskAPI\obj\Debug\net6.0\DxHelpDeskAPI.AssemblyInfoInputs.cache
+D:\BERT\NEW-HELPDESK\DxHelpDeskAPI\DxHelpDeskAPI\DxHelpDeskAPI\obj\Debug\net6.0\DxHelpDeskAPI.AssemblyInfo.cs
+D:\BERT\NEW-HELPDESK\DxHelpDeskAPI\DxHelpDeskAPI\DxHelpDeskAPI\obj\Debug\net6.0\DxHelpDeskAPI.csproj.CoreCompileInputs.cache
+D:\BERT\NEW-HELPDESK\DxHelpDeskAPI\DxHelpDeskAPI\DxHelpDeskAPI\obj\Debug\net6.0\DxHelpDeskAPI.MvcApplicationPartsAssemblyInfo.cache
+D:\BERT\NEW-HELPDESK\DxHelpDeskAPI\DxHelpDeskAPI\DxHelpDeskAPI\obj\Debug\net6.0\DxHelpDeskAPI.sourcelink.json

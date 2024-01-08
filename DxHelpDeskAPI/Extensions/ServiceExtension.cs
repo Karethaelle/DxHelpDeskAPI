@@ -1,8 +1,9 @@
 ﻿using DxHelpDeskAPI.Application.Interfaces;
 using DxHelpDeskAPI.Application.Services;
 using DxHelpDeskAPI.Domain.Interfaces;
-using DxHelpDeskAPI.Logger;
-using DxHelpDeskAPI.Persistence.Repositories;
+using DxHelpDeskAPI.Infrastructure.Logger;
+using DxHelpDeskAPI.Infrastructure.Repositories;
+
 using Microsoft.AspNetCore.Builder;
 using System.Reflection;
 

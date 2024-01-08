@@ -1,6 +1,5 @@
-﻿using DxHelpDeskAPI.Domain.Exceptions;
-using DxHelpDeskAPI.Domain.Interfaces;
-using DxHelpDeskAPI.Persistence.Exceptions;
+﻿using DxHelpDeskAPI.Domain.Interfaces;
+using DxHelpDeskAPI.Infrastructure.Exceptions;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -9,7 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DxHelpDeskAPI.Persistence.Repositories
+namespace DxHelpDeskAPI.Infrastructure.Repositories
 {
     public sealed class RepositoryManager : IRepositoryManager
     {

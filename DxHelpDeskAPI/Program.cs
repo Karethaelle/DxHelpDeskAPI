@@ -1,7 +1,7 @@
 using DxHelpDeskAPI.Application.Interfaces;
 using DxHelpDeskAPI.Domain.Interfaces;
 using DxHelpDeskAPI.Extensions;
-using DxHelpDeskAPI.Persistence.Repositories;
+using DxHelpDeskAPI.Infrastructure.Repositories;
 using DxHelpDeskAPI.Application.Services;
 
 using System.Reflection;

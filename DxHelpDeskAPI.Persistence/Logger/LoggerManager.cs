@@ -1,6 +1,7 @@
-﻿using NLog;
+﻿using DxHelpDeskAPI.Domain.Interfaces;
+using NLog;
 
-namespace DxHelpDeskAPI.Logger
+namespace DxHelpDeskAPI.Infrastructure.Logger
 {
     public class LoggerManager : ILoggerManager
     {

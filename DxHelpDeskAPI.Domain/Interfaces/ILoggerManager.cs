@@ -1,4 +1,4 @@
-﻿namespace DxHelpDeskAPI.Logger
+﻿namespace DxHelpDeskAPI.Domain.Interfaces
 {
     public interface ILoggerManager
     {

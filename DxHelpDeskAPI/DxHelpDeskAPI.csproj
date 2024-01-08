@@ -14,12 +14,13 @@
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
-    <PackageReference Include="NLog.Extensions.Logging" Version="5.3.7" />
+    <PackageReference Include="NLog.Extensions.Logging" Version="5.3.8" />
     <PackageReference Include="Pomelo.EntityFrameworkCore.MySql" Version="7.0.0" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
   </ItemGroup>
 
   <ItemGroup>
+    <Folder Include="Logger\" />
     <Folder Include="Mappers\" />
   </ItemGroup>
 
@@ -28,7 +29,7 @@
     <ProjectReference Include="..\DxHelpDesk.Shared\DxHelpDesk.Shared.csproj" />
     <ProjectReference Include="..\DxHelpDeskAPI.Application\DxHelpDeskAPI.Application.csproj" />
     <ProjectReference Include="..\DxHelpDeskAPI.Domain\DxHelpDeskAPI.Domain.csproj" />
-    <ProjectReference Include="..\DxHelpDeskAPI.Persistence\DxHelpDeskAPI.Persistence.csproj" />
+    <ProjectReference Include="..\DxHelpDeskAPI.Persistence\DxHelpDeskAPI.Infrastructure.csproj" />
   </ItemGroup>
 
 </Project>

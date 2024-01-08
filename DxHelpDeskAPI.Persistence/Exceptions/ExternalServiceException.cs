@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DxHelpDeskAPI.Persistence.Exceptions
+namespace DxHelpDeskAPI.Infrastructure.Exceptions
 {
     public class ExternalServiceException : Exception
     {

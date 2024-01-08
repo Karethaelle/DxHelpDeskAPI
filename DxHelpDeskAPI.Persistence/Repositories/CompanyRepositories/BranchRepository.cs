@@ -1,13 +1,13 @@
 ﻿using DxHelpDeskAPI.Domain.Entities.Models;
 using DxHelpDeskAPI.Domain.Interfaces;
-using DxHelpDeskAPI.Persistence.Repositories;
+using DxHelpDeskAPI.Infrastructure.Repositories;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DxHelpDeskAPI.Persistence.Repositories
+namespace DxHelpDeskAPI.Infrastructure.Repositories
 {
     internal sealed class BranchRepository : RepositoryBase<Branch>, IBranchRepository
     {

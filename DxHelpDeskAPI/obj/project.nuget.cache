@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Fniy5bgFh7wNb0YTZKDRn2rY39YGRVx8rNOF4zRcyoJ5/fNqBw08Dm/VQx9e5yx/EaBh30gjfDD44jbT9UJabw==",
+  "dgSpecHash": "6OrNbQzP+PVlZiZcX7Fuls0JGcNSbl//KqenAIrPWB1g9TUmUWIZJlgcJ63Tmn4MOHPtPyhIrmHJBqjbpahClw==",
   "success": true,
-  "projectFilePath": "D:\\BERT\\DxHelpDesk\\DxHelpDeskAPI\\DxHelpDeskAPI\\DxHelpDeskAPI.csproj",
+  "projectFilePath": "D:\\BERT\\NEW-HELPDESK\\DxHelpDeskAPI\\DxHelpDeskAPI\\DxHelpDeskAPI\\DxHelpDeskAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\dvrds\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\dvrds\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
@@ -28,8 +28,8 @@
     "C:\\Users\\dvrds\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
     "C:\\Users\\dvrds\\.nuget\\packages\\mono.texttemplating\\2.2.1\\mono.texttemplating.2.2.1.nupkg.sha512",
     "C:\\Users\\dvrds\\.nuget\\packages\\mysqlconnector\\2.2.5\\mysqlconnector.2.2.5.nupkg.sha512",
-    "C:\\Users\\dvrds\\.nuget\\packages\\nlog\\5.2.7\\nlog.5.2.7.nupkg.sha512",
-    "C:\\Users\\dvrds\\.nuget\\packages\\nlog.extensions.logging\\5.3.7\\nlog.extensions.logging.5.3.7.nupkg.sha512",
+    "C:\\Users\\dvrds\\.nuget\\packages\\nlog\\5.2.8\\nlog.5.2.8.nupkg.sha512",
+    "C:\\Users\\dvrds\\.nuget\\packages\\nlog.extensions.logging\\5.3.8\\nlog.extensions.logging.5.3.8.nupkg.sha512",
     "C:\\Users\\dvrds\\.nuget\\packages\\pomelo.entityframeworkcore.mysql\\7.0.0\\pomelo.entityframeworkcore.mysql.7.0.0.nupkg.sha512",
     "C:\\Users\\dvrds\\.nuget\\packages\\swashbuckle.aspnetcore\\6.5.0\\swashbuckle.aspnetcore.6.5.0.nupkg.sha512",
     "C:\\Users\\dvrds\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.5.0\\swashbuckle.aspnetcore.swagger.6.5.0.nupkg.sha512",

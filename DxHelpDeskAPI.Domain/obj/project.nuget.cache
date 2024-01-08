@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "IkS7r2cM6UcOBb4eVZjO+Q9ykGP7XK5acsz/5bilBjAs87lvgD+RNvfGikES+TeX5DMYXdxUlZDH/soP0/8J3Q==",
+  "dgSpecHash": "BPFco1rX1/8tjR9SOaghYfkZlntdcV9Wxm/UyVp3k46/QiaKh1wiaYqhB17IBJemHZI5NsJPMGJuxVF6UE1qSw==",
   "success": true,
-  "projectFilePath": "D:\\BERT\\DxHelpDesk\\DxHelpDeskAPI\\DxHelpDeskAPI.Domain\\DxHelpDeskAPI.Domain.csproj",
+  "projectFilePath": "D:\\BERT\\NEW-HELPDESK\\DxHelpDeskAPI\\DxHelpDeskAPI\\DxHelpDeskAPI.Domain\\DxHelpDeskAPI.Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

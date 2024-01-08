@@ -9,3 +9,15 @@ D:\BERT\DxHelpDesk\DxHelpDeskAPI\DxHelpDesk.Shared\obj\Debug\net6.0\DxHelpDesk.S
 D:\BERT\DxHelpDesk\DxHelpDeskAPI\DxHelpDesk.Shared\obj\Debug\net6.0\refint\DxHelpDesk.Shared.dll
 D:\BERT\DxHelpDesk\DxHelpDeskAPI\DxHelpDesk.Shared\obj\Debug\net6.0\DxHelpDesk.Shared.pdb
 D:\BERT\DxHelpDesk\DxHelpDeskAPI\DxHelpDesk.Shared\obj\Debug\net6.0\ref\DxHelpDesk.Shared.dll
+D:\BERT\NEW-HELPDESK\DxHelpDeskAPI\DxHelpDeskAPI\DxHelpDesk.Shared\bin\Debug\net6.0\DxHelpDesk.Shared.deps.json
+D:\BERT\NEW-HELPDESK\DxHelpDeskAPI\DxHelpDeskAPI\DxHelpDesk.Shared\bin\Debug\net6.0\DxHelpDesk.Shared.dll
+D:\BERT\NEW-HELPDESK\DxHelpDeskAPI\DxHelpDeskAPI\DxHelpDesk.Shared\bin\Debug\net6.0\DxHelpDesk.Shared.pdb
+D:\BERT\NEW-HELPDESK\DxHelpDeskAPI\DxHelpDeskAPI\DxHelpDesk.Shared\obj\Debug\net6.0\DxHelpDesk.Shared.GeneratedMSBuildEditorConfig.editorconfig
+D:\BERT\NEW-HELPDESK\DxHelpDeskAPI\DxHelpDeskAPI\DxHelpDesk.Shared\obj\Debug\net6.0\DxHelpDesk.Shared.AssemblyInfoInputs.cache
+D:\BERT\NEW-HELPDESK\DxHelpDeskAPI\DxHelpDeskAPI\DxHelpDesk.Shared\obj\Debug\net6.0\DxHelpDesk.Shared.AssemblyInfo.cs
+D:\BERT\NEW-HELPDESK\DxHelpDeskAPI\DxHelpDeskAPI\DxHelpDesk.Shared\obj\Debug\net6.0\DxHelpDesk.Shared.csproj.CoreCompileInputs.cache
+D:\BERT\NEW-HELPDESK\DxHelpDeskAPI\DxHelpDeskAPI\DxHelpDesk.Shared\obj\Debug\net6.0\DxHelpDesk.Shared.sourcelink.json
+D:\BERT\NEW-HELPDESK\DxHelpDeskAPI\DxHelpDeskAPI\DxHelpDesk.Shared\obj\Debug\net6.0\DxHelpDesk.Shared.dll
+D:\BERT\NEW-HELPDESK\DxHelpDeskAPI\DxHelpDeskAPI\DxHelpDesk.Shared\obj\Debug\net6.0\refint\DxHelpDesk.Shared.dll
+D:\BERT\NEW-HELPDESK\DxHelpDeskAPI\DxHelpDeskAPI\DxHelpDesk.Shared\obj\Debug\net6.0\DxHelpDesk.Shared.pdb
+D:\BERT\NEW-HELPDESK\DxHelpDeskAPI\DxHelpDeskAPI\DxHelpDesk.Shared\obj\Debug\net6.0\ref\DxHelpDesk.Shared.dll
